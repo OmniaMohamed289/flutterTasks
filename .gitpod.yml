@@ -1,4 +1,5 @@
-FROM gitpod/workspace-full:0.13.0
+imge:
+file: .gitpod.Dockerfile
 
 tasks:
   - name: Install Flutter
