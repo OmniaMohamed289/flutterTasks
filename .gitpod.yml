@@ -1,11 +1,10 @@
-imge:
-file: .gitpod.Dockerfile
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
-  - name: Install Flutter
+  - name: إعداد Flutter
     init: |
-      git clone https://github.com/flutter/flutter.git -b stable
-      export PATH="$PATH:/workspace/flutter/bin"
+      export PATH="/home/gitpod/flutter/bin:$PATH"
       flutter doctor
 
 vscode:
