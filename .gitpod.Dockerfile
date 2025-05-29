@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:latest
 
 # تثبيت Flutter SDK
 RUN git clone https://github.com/flutter/flutter.git /home/gitpod/flutter -b stable
