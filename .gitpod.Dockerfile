@@ -7,4 +7,3 @@ ENV PATH="/home/gitpod/flutter/bin:/home/gitpod/flutter/bin/cache/dart-sdk/bin:$
 # تحميل أدوات Flutter اللازمة
 RUN flutter doctor
 
-# ممكن تضيف أوامر أخرى لتثبيت أدوات إضافية لو محتاج
