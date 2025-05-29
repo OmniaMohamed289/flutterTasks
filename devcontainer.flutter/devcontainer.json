@@ -1,0 +1,14 @@
+{
+  "name": "Flutter",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "Dart-Code.flutter",
+    "Dart-Code.dart-code"
+  ],
+  "postCreateCommand": "flutter pub get"
+}
