@@ -1,4 +1,4 @@
-image: ghcr.io/gitpod-io/workspace-full:latest
+FROM gitpod/workspace-full:0.13.0
 
 tasks:
   - name: Install Flutter
