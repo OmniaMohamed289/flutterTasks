@@ -1,0 +1,17 @@
+image: ghcr.io/gitpod-io/workspace-full:latest
+
+tasks:
+  - name: Install Flutter
+    init: |
+      git clone https://github.com/flutter/flutter.git -b stable
+      export PATH="$PATH:/workspace/flutter/bin"
+      flutter doctor
+
+vscode:
+  extensions:
+    - Dart-Code.flutter
+    - Dart-Code.dart-code
+
+ports:
+  - port: 3000
+    onOpen: open-preview
